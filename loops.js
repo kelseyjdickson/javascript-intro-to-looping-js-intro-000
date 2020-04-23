@@ -29,5 +29,5 @@ function doWhileLoop(int){
   do {
     console.log("doo-bee-doo-bee-doo");
   } while (incrementVariable() < int);
-  
+
 }
