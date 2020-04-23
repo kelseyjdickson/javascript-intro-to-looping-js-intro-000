@@ -17,3 +17,17 @@ function whileLoop(number){
   }
 return 'done'
 }
+
+function doWhileLoop(int){
+  let i = 0;
+
+  function incrementVariable() {
+    i = i + 1;
+    return i;
+  }
+
+  do {
+    console.log("doo-bee-doo-bee-doo");
+  } while (incrementVariable() < int);
+  
+}
